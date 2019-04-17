@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/douban/in_theathers/in_theathers",
+    "pages/douban/coming_soon/coming_soon",
+    "pages/douban/detail/detail"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#268dcd",
+    "borderStyle": "white",
+    "backgroundColor": "#fafafa",
+    "list": [{
+      "pagePath": "pages/douban/in_theathers/in_theathers",
+      "iconPath": "image/ing.png",
+      "selectedIconPath": "image/ing-active.png",
+      "text": "正在热映"
+    },{
+      "pagePath": "pages/douban/coming_soon/coming_soon",
+      "iconPath": "image/coming.png",
+      "selectedIconPath": "image/coming-active.png",
+      "text": "即将上映"
+    }]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#268dcd",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
+  },
+  "debug": true
+}
